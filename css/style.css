@@ -1,10 +1,59 @@
+/*navbar stuff*/
 nav {
-  background-color: #111;
-  color: #333;
-  font-family: monospace;
   padding: 15px;
-  position: fixed; 
-  top: 0;
-  left: 0%;
+  position:relative; 
   width: 100%; 
+}
+
+#main-navbar{
+  background-color: LightSkyBlue;
+  overflow: hidden;
+ background: linear-gradient(to bottom, rgba(41,140,215,0) 0%,rgba(41,140,215,0.8) 11%,rgba(41,140,215,0.9) 15%,rgba(46,144,216,1) 19%,rgba(88,178,226,1) 51%,rgba(41,140,215,1) 84%,rgba(41,140,215,1) 87%,rgba(41,140,215,0.8) 90%,rgba(41,140,215,0) 100%);
+}
+
+#main-navbar li{
+font-family: 'Maiden Orange', serif;
+font-size: 35px;
+display: inline-block;
+}
+
+#main-navbar ul {
+  position: relative;
+  float: left;
+  list-style-type: none;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  text-align: center; 
+}
+#main-navbar ul li{
+  display: block;
+  float: left;
+  position: relative;
+  padding: 10px;
+  right: 50%;
+  margin: 5px;
+}
+
+#main-navbar ul li a {
+  padding: 10px 60px;
+  color: black;
+  display: block;
+  border: 6px solid;
+  text-decoration: none;
+  float: left;
+}
+nav{
+  margin: 0 auto;
+}
+
+#main-navbar ul li a:hover {
+  background-color: LightSlateGrey;
+}
+/* End navbar stuff*/
+
+body {
+  background-color: SteelBlue;
+  background: linear-gradient(to bottom, rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%);
 }
